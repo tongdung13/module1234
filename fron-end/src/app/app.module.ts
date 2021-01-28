@@ -10,6 +10,8 @@ import { UpdateBoosComponent } from './books/update-boos/update-boos.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { DeleteBooksComponent } from './books/delete-books/delete-books.component';
+import { NavbarComponent } from './navbar/navbar/navbar.component';
+import { FooteComponent } from './foote/foote/foote.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { DeleteBooksComponent } from './books/delete-books/delete-books.componen
     BoosDetailsComponent,
     CreateBoosComponent,
     UpdateBoosComponent,
-    DeleteBooksComponent
+    DeleteBooksComponent,
+    NavbarComponent,
+    FooteComponent
   ],
   imports: [
     BrowserModule,
